@@ -114,7 +114,7 @@ if (!class_exists('FM')) {
           'roots' => array(
             array(
               'driver'        => 'LocalFileSystem',           // driver for accessing file system (REQUIRED)
-              'path'          => '/srv/www/wp-content/uploads/ftek-documents',                     // path to files (REQUIRED)
+              'path'          => '/srv/ftek/wp-content/uploads/ftek-documents',                     // path to files (REQUIRED)
               'URL'           => site_url() . '/wp-content/uploads/ftek-documents',                  // URL to files (REQUIRED)
               'uploadDeny'    => $mime_denied,                // All Mimetypes not allowed to upload
               'uploadAllow'   => $mime_allowed,               // Mimetype `image` and `text/plain` allowed to upload
